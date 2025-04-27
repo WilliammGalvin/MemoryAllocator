@@ -84,7 +84,6 @@ int free_alloc(void* addr) {
     }
 
     block->is_free = 1;
-    block->magic = 0x0;
 
     return 1;
 }
